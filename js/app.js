@@ -34,7 +34,6 @@ function addPhraseToDisplay(arr) {
         }
         phraseUl.append(li);
     }
-
 }
 
 function checkLetter(btn) {
