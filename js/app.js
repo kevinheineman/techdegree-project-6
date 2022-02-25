@@ -42,6 +42,7 @@ function checkLetter(btn) {
     for (let i = 0; i < letters.length; i++) {
         if (letters[i].textContent === btn.textContent) {
             matchLetter = (letters[i] === btn.textContent);
+            letters[i].style.transition = 'background-color 1s, transform 2s'
             letters[i].className += ' show';
         }
     }
